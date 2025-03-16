@@ -1,0 +1,28 @@
+{
+    "accounts": {
+        "ownerId": "Owner id",
+        "currency": "Currency",
+        "balance": "Balance",
+        "addNewAccount": "Add new account",
+        "addAccountButton": "Add account",
+        "listAccounts": "List accounts",
+        "search": "Search accounts by currency",
+        "editAccount": "Edit account id "
+    },
+    "transaction": {
+        "transactionLink": "Make transaction",
+        "title": "Transaction title",
+        "debitAccount": "Select account to debit",
+        "creditAccount": "Select account to credit",
+        "amount": "Enter amount (in debit account currency)",
+        "performTransaction": "Perform transaction",
+        "listMessage": "Observe balance change"
+    },
+    "general": {
+        "loading": "Loading data ...",
+        "zodError-ownerId": "Owner id must be numeric with min 5 digits",
+        "zodError-currency": "Currency must be a 3 letters string",
+        "zodError-balance": "Balance must be a positive number",
+        "insufficientBalance": "Insufficient balance"
+    }
+}

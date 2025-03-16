@@ -17,7 +17,10 @@ async function AccountCard({ account }: { account: Account }) {
 
   return (
     <>
-      <div className="bg-(--primary-color-light) rounded-md shadow-md shadow-gray-300/50 p-3">
+      <div
+        className="bg-(--primary-color-light) rounded-md shadow-md shadow-gray-300/50 p-3"
+        data-cy="card"
+      >
         <div className="flex justify-between">
           <div>{`${t("ownerId")}: ${account.ownerId}`}</div>
           <Link href={`/edit-account?account=${account.id}` as "/edit-account"}>

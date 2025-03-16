@@ -32,7 +32,7 @@ export default async function RootLayout({
       <NextIntlClientProvider messages={messages}>
         <div className="mx-3 w-full md:w-2md xl:w-4xl md:mx-auto">
           <div className="flex justify-between mt-5 mx-8 items-center">
-            <Link href="/">
+            <Link href="/" data-testid={"home"}>
               <FaHome />
             </Link>
             <LocaleSwitcher />
